@@ -17,9 +17,11 @@ pseudocode:
 and complement techniques.)
 pseudocode:
 START
-
-
-
+ input num1
+ input num2 
+ apply two's complement on num2 
+ then add num1 and num2 
+ 
 
 
 
@@ -36,3 +38,54 @@ pseudocode:
     ELSE
         cal = num1/num2
     PRINT cal
+
+Algorithm:
+1. Write an algorithm to determine whether a number is a prime number. The algorithm should
+iterate through possible divisors and determine if the number has any divisors other than 1
+and itself.
+
+INPUT number
+loop i 1 to number
+    if i != 1 && i != number
+        r = number%i
+        if r == 0 then
+            count += 1
+if count == 0 then
+    print(num, "is a prime number")
+else
+    print(num, "not a prime number")
+
+
+2. Create an algorithm that asks the user for a day number (1-365) and outputs the
+corresponding day of the week, assuming that January 1st is a Monday.
+
+INPUT number
+r= number%7
+if r == 0 then
+    print "Sunday"
+elseif r == 1 then
+    print "Monday"
+elseif r == 2 then
+    print "Tuesday"
+elseif r == 3 then
+    print "Wednesday"
+elseif r == 4 then
+    print "Thursday"
+elseif r == 5 then
+    print "Friday"
+elseif r == 6 then
+    print "Saturday"
+
+
+3. Develop an algorithm for a program that takes two numbers as input and finds the Greatest
+Common Divisor (GCD) of the two numbers using the Euclidean algorithm. 
+
+input num1 
+imput num2
+remainder = num1%num2
+loop until remainder == 0 
+    num1 = num2
+    num2 = r
+    remainder = num1%num2
+print num2 
+
