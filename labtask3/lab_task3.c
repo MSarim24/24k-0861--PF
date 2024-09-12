@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+ //Questio 2
     printf("Question 2\n");
     int num1 = 20;
     int num2 = 35;
@@ -11,6 +12,7 @@ int main()
     num2 = temp;
     printf("BEFORE \n num1: 20 and num: 35 \nAFTER \n num1: %d and num2: %d\n",num1,num2);
 
+ //Questio 3
     printf("\n\nQuestion 3\n");
 
     int salary;
@@ -26,6 +28,7 @@ int main()
 
     printf("\nTax paid: %.2f\nSalary: %d",tax_amount,salary); 
 
+ //Questio 4
     printf("\n\nQuestion 4\n");
 
     int distance = 1207;
@@ -41,6 +44,7 @@ int main()
 
     printf("Total cost: %.2f\nFuel consume: %.2f",totalcost,consumed);
 
+ //Questio 5
     printf("\n\nQuestion 5\n");
 
     int P,R,T;
@@ -60,6 +64,7 @@ int main()
 
     printf("Simple interest is %.2f",SI);
 
+ //Questio 6
     printf("\n\nQuestion 6\n");
     
     int x1 = 5, y1 = 4, x2 = 3, y2 = 2;
